@@ -12,10 +12,10 @@ import SymbolQuotationRows from "./rows";
 export type SymbolStatus = {
   icon: JSX.Element;
   label: string;
-  price: number;
+  price: string;
   change24h: number;
-  volume24h: number;
-  volume24hUSD: number;
+  volume24h: string;
+  volume24hUSD: string;
 };
 
 export default SymbolsQuotationTable;
